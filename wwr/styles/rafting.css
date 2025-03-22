@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #CAE9FF;
+    --secondary-color: #1B4965;
+    --accent1-color: #62B6CB;
+    --accent2-color: #BEE9E8;
+    
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B4965;
+}
+
+.hero
+{
+    position:relative;
+    display:flex
+}
+
+.hero img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.title
+{
+   position: absolute;
+   top: 1%;
+   font-size: 45px;
+   background-color: antiquewhite;
+   object-fit:cover
+   
+}
+
+.img2
+{
+    width: 10px;;
+    height: auto;
+    right: 90px;
+    background-color: #1B4965;
+    padding: 20%;
+    border:#437372;
+    top:75%;
+        
+
+}
+
+p {
+    position: absolute;
+    object-fit: 10px;
+    width: 100%;
+    background-color: #ebefef;
+    left: 0.1%;
+    top:80%;
+
+}
+  
+
+
+
+
