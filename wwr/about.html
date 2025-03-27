@@ -12,13 +12,17 @@
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="Rafting" width="10%">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Rafting" width="10%">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -35,26 +39,47 @@
             <p class="p-history-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nemo quaerat unde distinctio blanditiis! Odit quaerat dignissimos blanditiis asperiores quis quisquam, atque ex non odio ut possimus temporibus inventore nemo.</p>
         </section>
         <section class="adventure-container">
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/adventure1.webp" alt="rafting 1" width="200">
-            <img src="images/adventure2.webp" alt="rafting 2" width="200">
-            <img src="images/adventure3.jpg" alt="rafting 3" width="280" height="130">
-            <img src="images/adventure4.jpg" alt="rafting 4" width="200">
-            <img src="images/adventure5.jpg" alt="rafting 5" width="200">
+            <h2 class="title-adventure">Adventure Awaits You!</h2>
+            <div class="adventure-gallery">
+                <figure class="Adventure">
+                    <img src="images/adventure1.webp" alt="rafting 1" width="200">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure class="Adventure">
+                    <img src="images/adventure2.webp" alt="rafting 2" width="200">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>  
+                <figure class="Adventure">  
+                    <img src="images/adventure3.jpg" alt="rafting 3" width="280" height="130">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure class="Adventure">
+                    <img src="images/adventure4.jpg" alt="rafting 4" width="200">
+                    <figcaption>Los Rápidos del Toro</figcaption>
+                </figure>
+                <figure class="Adventure">
+                    <img src="images/adventure5.jpg" alt="rafting 5" width="200">
+                    <figcaption>Rápido Xtreme</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
-        <p>© 2025 White Water Rafting | Natalia Ferrizo</p>
-        <nav class="sociallinks">
-            <a href="https://facebook.com">
-                <img src="images/facebook.webp" alt="Facebook">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images//twitter.webp" alt="Twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.webp" alt="Instagram">
-            </a>
+        <div class="footer-content">
+            <p>© 2025 White Water Rafting | Natalia Ferrizo</p>
+            <div class="social-icons">
+                <nav class="sociallinks">
+                <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook" width="50">
+                </a>
+                <a href="https://twitter.com">
+                <img src="images//twitter.webp" alt="Twitter" width="50">
+                </a>
+                <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram" width="50">
+                </a>
+            </div>
+        </div>
         </nav>
     </footer>
 </body>
