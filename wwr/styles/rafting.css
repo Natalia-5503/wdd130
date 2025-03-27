@@ -3,68 +3,101 @@
     --secondary-color: #1B4965;
     --accent1-color: #62B6CB;
     --accent2-color: #BEE9E8;
-    
+
 }
 
 body {
     font-family: "Roboto Slab", serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     color: #1B4965;
+    font-weight: 300;
 }
 
-.hero
-{
+ .hero-container
+ {
+display: block;
+
+ }
+
+
+ .hero-image
+
+ {
+position:absolute;  
+width: 900px;
+max-height: 600px;
+display: block;
+top: 130px;
+ }
+
+ .hero-title
+ {
+
+font-family: 'Permanent Marker', cursive;
+font-size: 4rem;
+color: white;
+text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+padding: 0.1rem;
+background-color: rgba(27, 73, 101, 0.7);
+border-radius: 5px;
+position: relative;
+top: 360px;
+width: 87%;
+
+ }
+
+ .hero-article
+ {
     position:relative;
-    display:flex
-}
-
-.hero img
-{
     display: block;
-    width: 100%;
-    height: auto;
+
+ }
+
+ .client-image
+ {
+position:relative;
+top: 170px;
+left: 700px;
+width: 250px;
+border: 15px solid;
+ }
+
+ .client-testimonial
+ {
+    display:flex;
+    justify-content: stretch;
+    top: 20px;
     position: relative;
+    width: 20%;
+    left: 1000px;
+    right: 200px;
+    color:#CAE9FF
+    
+ }
+
+ .history-container
+ {
+ position: absolute;
+ top: 630px;
+ left: 10px;
+ width: 86%;
 }
 
-.title
+.adventure-container
 {
-   position: absolute;
-   top: 1%;
-   font-size: 45px;
-   background-color: antiquewhite;
-   object-fit:cover
-   
-}
-
-.img2
-{
-    width: 10px;;
-    height: auto;
-    right: 90px;
-    background-color: #1B4965;
-    padding: 20%;
-    border:#437372;
-    top:75%;
-        
-
-}
-
-p {
     position: absolute;
-    width: 100%;
-    background-color: #ebefef;
-    left: 0.1%;
-    top:80%;
-
+    top: 720px;
+    left: 10px;
 }
-  
-footer p {
+
+footer  {
+    position:absolute;
+    display: block;
+    top: 950px;
+    left: 10px;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
     font-style: normal;
     color: #1B4965;
 }
-
-
-
