@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natalia Ferrizo">
+    <meta name="description" content="The purpose of this page is an example of a Contacting page of a rafting website company in order to learn how to create creat a form in the website">
+    <title>Whitewater Rafting Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting-contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Rafting" width="10">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-company">
+            <h1 class="contact-title">Contact Us</h1>
+                <ul>
+                    <li><p class="contact-info">Address: 201 East South Temple, Salt Lake City, 84111 Utah</p></li>
+                    <li><p class="contact-info">Phone Number(s): (385) 303-5567 or (385) 304-6678</p></li>
+                    <li><p class="contact-info">Email: <a href="malito:">contact@whitewaterrafting.com</a></p></li>                   
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.5160727144294!2d-111.86838132334029!3d40.77266723389844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f584cf35b2cf%3A0xc83fa00476490f89!2s201%20E%20S%20Temple%20St%2C%20Salt%20Lake%20City%2C%20UT%2084111!5e0!3m2!1ses!2sus!4v1743730213029!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+        </div>
+    <section class="employee-content">
+        <h2 class="employee-title">Who we are?</h2>    
+        <div class="employee-gallery">
+                <figure class="employee-image">
+                    <img src="images/worker1.jpg" alt="rafting 1" width="200">
+                    <figcaption>Rafael Fernandez</figcaption>
+                </figure>
+                <figure class="employee-image">
+                    <img src="images/worker2.jpg" alt="rafting 1" width="200">
+                    <figcaption>Linda Walker</figcaption>
+                </figure>
+                <figure class="employee-image">
+                    <img src="images/worker3.jpg" alt="rafting 1" width="200">
+                    <figcaption>John Freeman</figcaption>
+                </figure>
+    </section>
+        </div>
+            <form>
+                <fieldset>
+                    <legend>Contact Information:</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>What is the purpose of your message?</legend>
+                    <div class="form-item column3">
+                        <label>
+                            <input type="radio" name="message_type" value="general_inquiry"> General Inquiry
+                        </label><br>
+                    
+                        <label>
+                          <input type="radio" name="message_type" value="reservation_question"> Reservation Question
+                        </label><br>
+                    
+                        <label>
+                          <input type="radio" name="message_type" value="website_suggestion"> Website Suggestion
+                        </label><br>
+                    </div>
+                    <div class="form-item column1">
+                        
+                        <label for="feedback">Your message:</label>
+                        <textarea id="feedback" name="feedback" rows="6" cols="6"></textarea>
+                    </div>
+                    <div class="form-item column4">  
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                    
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 White Water Rafting | Natalia Ferrizo</p>
+            <div class="social-icons">
+                <nav class="sociallinks">
+                    <a href="https://facebook.com">
+                    <img src="images/facebook.webp" alt="Facebook" width="50">
+                    </a>
+                    <a href="https://twitter.com">
+                    <img src="images//twitter.webp" alt="Twitter" width="50">
+                    </a>
+                    <a href="https://instagram.com">
+                    <img src="images/instagram.webp" alt="Instagram" width="50">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

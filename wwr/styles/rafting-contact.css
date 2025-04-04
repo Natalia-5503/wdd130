@@ -1,0 +1,239 @@
+:root {
+    --primary-color: #CAE9FF;
+    --secondary-color: #1B4965;
+    --accent1-color: #62B6CB;
+    --accent2-color: #BEE9E8;
+
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #1B4965;
+    font-weight: 300;
+}
+
+.employee-title
+{
+    margin-top: -10px;
+    font-size: 2rem;
+    padding: 30px;
+    box-sizing:border-box;
+    align-items: end;
+    text-align: center;
+
+}
+
+.employee-content
+{
+top: 800px;    
+position:absolute;
+align-items:start;
+width: 99%;
+margin: px;
+font-size: 2.5rem;
+font-weight: bold;
+background-color: #a8cad3;
+
+}
+
+.employee-gallery
+{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content: space-between;    /* Distribuye las imágenes de manera uniforme */
+    gap: 2px;                         /* Espacio entre las figuras */
+    padding: 2px; 
+    margin-top: -80px;                    /* Espaciado dentro de la sección */
+    text-align:center;   
+
+}
+
+
+.employee-image {
+    width: 100%;                       
+    height: auto;                      
+    border-radius: 10px;  
+    
+                 
+}
+
+figcaption {
+    margin-top: 5px; 
+    font-size: 1.1rem;                   /* Tamaño de la fuente de la leyenda */
+    color: #333;                       /* Color del texto */
+    font-weight: bold;  
+    justify-content: center;
+    
+}
+
+footer  {
+    position:absolute;
+    background-color: #c6c6c6;
+    display: flex;
+    justify-content: space-around;
+    top: 1100px;
+    left: 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B4965;
+    padding: 20px;            
+    text-align: center; 
+    width: 96%;
+    
+}
+
+.footer-content {
+    display: flex;                    
+    align-items: center;   
+    justify-items: flex-end;   
+    gap: 680px  
+         
+}
+.sociallinks {
+    display: flex;  
+    justify-content: right;
+    gap: 50px; 
+   
+}
+                           
+.social-icons
+{
+    display:flex;
+    justify-items: right;
+}
+
+.header {
+    display: grid;
+    background-color:#a8cad3;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    align-items: center;
+}
+ 
+.logo img {
+    width: 100%;
+    max-width: 150px; 
+}
+
+
+.nav li {
+    
+    margin: 0 15px; 
+}
+.nav ul {
+    display: flex; 
+    list-style: none; 
+    justify-content: flex-end; 
+    
+}
+.nav a {
+    
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    background-color: #e3e7e9;
+    border: 3px solid #fff; /* Borde blanco alrededor de los enlaces */
+    border-radius: 7px; /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición para efectos */
+}
+
+.nav a:hover {
+    color: #007BFF; /* Color del enlace al pasar el ratón */
+}
+
+/* contact us page*/
+
+form {
+    position:absolute;
+    top: 150px;
+    left: 750px;
+    width: 550px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color:#CAE9FF;
+    display: grid;
+
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 1rem;
+    margin:0.5rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.4rem;
+    color: blue;
+    font-size: 1.4em;
+}
+
+label, input, button, select, textarea {
+    font-family:'Times New Roman', Times, serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+
+}
+
+input, radio, select, textarea {
+padding: 0.3rem;
+font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color:rgb(201, 198, 198);
+    color:black;
+    border:black;
+    border-radius: .6rem; 
+    padding: .8rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: rgb(148, 163, 173);
+}
+
+.form-item {
+    display:grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 6fr;
+    margin: 0.1rem 0.1rem;
+    gap: 20px;
+    
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+.column3 {
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+.column4 {
+    grid-template-columns: 3fr 1fr;
+    
+}
