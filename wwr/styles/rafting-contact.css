@@ -59,7 +59,8 @@ background-color: #a8cad3;
                  
 }
 
-figcaption {
+.employee-gallery figcaption
+{
     margin-top: 5px; 
     font-size: 1.1rem;                   /* Tamaño de la fuente de la leyenda */
     color: #333;                       /* Color del texto */
@@ -68,7 +69,7 @@ figcaption {
     
 }
 
-footer  {
+.footer-contact  {
     position:absolute;
     background-color: #c6c6c6;
     display: flex;
@@ -85,7 +86,7 @@ footer  {
     
 }
 
-.footer-content {
+.footer-contact {
     display: flex;                    
     align-items: center;   
     justify-items: flex-end;   
