@@ -307,7 +307,7 @@ figcaption {
     background-color: #c6c6c6;
     display: flex;
     justify-content: space-around;
-    top: 650px;
+    top: 1312px;
     left: 5px;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
@@ -315,7 +315,7 @@ figcaption {
     color: #1B4965;
     padding: 20px;            
     text-align: center; 
-    width: 96.5%;
+    width: 96.7%;
     
 }
 
