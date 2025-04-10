@@ -70,8 +70,8 @@ top: 130px;
  .client-image
  {
 position:relative;
-top: 100px;
-left: 1210px;
+top: 60px;
+left: 1215px;
 width: 250px;
 border: 15px solid;
  }
@@ -80,13 +80,13 @@ border: 15px solid;
  {
     display:flex;
     justify-content: stretch;
-    top: -80px;
+    top: -120px;
     position: relative;
     width: 22%;
-    left: 870px;
+    left: 890px;
     right: 200px;
     color:#f4f5f6;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     
     
  }
@@ -324,7 +324,7 @@ figcaption {
     background-color: #c6c6c6;
     display: flex;
     justify-content: space-around;
-    top: 1035px;
+    top: 1060px;
     left: 10px;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
@@ -333,7 +333,7 @@ figcaption {
     padding: 20px;            
     text-align: center; 
     width: 96%;
-    
+    gap: 800px
 }
 
 .footer-home {
