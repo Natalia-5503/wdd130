@@ -109,7 +109,7 @@ border: 15px solid;
  {
     
     display:flex;
-    top: 645px;
+    top: 590px;
     position: relative;
     background-color: #e3e7e9;
     gap: 20px;
@@ -218,7 +218,7 @@ left: 20px;
 .home-container
 {
     display:flex;
-    top: 40px;
+    top: -20px;
     background-color:#e3e7e9;
     position: relative;
     border: 2px solid black; 
@@ -307,7 +307,7 @@ figcaption {
     background-color: #c6c6c6;
     display: flex;
     justify-content: space-around;
-    top: 1312px;
+    top: 1275px;
     left: 5px;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
