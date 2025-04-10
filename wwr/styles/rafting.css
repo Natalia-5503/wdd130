@@ -341,7 +341,25 @@ figcaption {
     align-items: center;   
     justify-items: flex-end;   
     gap: 800px  
-}     
+}   
+
+
+.footer-content {
+    position:absolute;
+    background-color: #c6c6c6;
+    display: flex;
+    justify-content: space-around;
+    top: 1095px;
+    left: 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B4965;
+    padding: 20px;            
+    text-align: center; 
+    width: 96%;
+    gap: 800px
+}
 
 .sociallinks {
     display: flex;  
