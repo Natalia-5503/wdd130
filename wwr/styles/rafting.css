@@ -44,8 +44,20 @@ top: 130px;
     top: -30px;
     text-align: center;
     
-       
+ }
 
+ .hero-home-title
+ {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    padding: 0.1rem;
+    background-color: rgba(27, 73, 101, 0.7);
+    border-radius: 5px;
+    position: relative;
+    top: 330px;
+    text-align: center;
  }
 
  .hero-article
@@ -93,6 +105,90 @@ border: 15px solid;
     padding: 10px;
  }
 
+ .newsletter-container
+ {
+    
+    display:flex;
+    top: 645px;
+    position: relative;
+    background-color: #e3e7e9;
+    gap: 20px;
+    left:px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+ }
+
+ /* Newsletter Form */
+.newsletter {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.newsletter h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: -20px; /* Ajusta este valor para reducir el margen superior */
+}
+
+.newsletter p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+
+.horizontal-form {
+    display: grid;
+    grid-template-columns: repeat(3); 
+    gap: 40px; 
+    align-items: center; 
+    justify-items: center; 
+    max-width: 800px; 
+    
+}
+
+
+.newsletter .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 100%; 
+}
+
+.newsletter label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button */
+.newsletter button.btn-submit {
+    grid-column: span 3; 
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.newsletter button.btn-submit:hover {
+    background-color: #e65c00;
+}
 .p-history-container
 {
 width: 100%;
@@ -111,8 +207,7 @@ left: 20px;
     display:flex;
     top: -125px;
     position: relative;
-    border: 2px solid black; /* El borde alrededor de todo */
-    border-radius: 0px; /* Bordes redondeados opcionales */
+    border: 2px solid black; 
     padding: 30px;
     box-sizing:border-box;
     align-items: end;
@@ -120,6 +215,21 @@ left: 20px;
 
 }
 
+.home-container
+{
+    display:flex;
+    top: 40px;
+    background-color:#e3e7e9;
+    position: relative;
+    border: 2px solid black; 
+    border-radius: 0px; 
+    padding: 30px;
+    box-sizing:border-box;
+    align-items: end;
+    text-align: center;
+    width: 1495px;
+
+}
 .title-adventure
 {
 position:absolute;
@@ -136,38 +246,85 @@ font-weight: bold;
 
 }
 
+.home-adventure
+{
+position:absolute;
+top:-30px;
+display:flex;
+align-items:start;
+
+left: 80px;
+width: 85%;
+justify-content: center;
+margin: 25px;
+font-size: 2.5rem;
+font-weight: bold;
+
+}
+
+.home-gallery
+{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content: space-between;    
+    gap: 2px;                         
+    padding: 2px;                     
+       
+
+}
+
 .adventure-gallery
 {
     display:flex;
     flex-direction:row;
     align-items:flex-end;
-    justify-content: space-between;    /* Distribuye las imágenes de manera uniforme */
-    gap: 2px;                         /* Espacio entre las figuras */
-    padding: 2px;                     /* Espaciado dentro de la sección */
+    justify-content: space-between;    
+    gap: 2px;                         
+    padding: 2px;                     
        
 
 }
 
 
+
+
 .adventure-image {
-    width: 100%;                       /* La imagen ocupa todo el ancho de su contenedor */
-    height: auto;                      /* Mantiene la proporción de la imagen */
-    border-radius: 10px;               /* Bordes redondeados para un look más suave */
+    width: 100%;                       
+    height: auto;                      
+    border-radius: 10px;               
 }
 
 figcaption {
     margin-top: 5px; 
-    font-size: 1rem;                   /* Tamaño de la fuente de la leyenda */
-    color: #333;                       /* Color del texto */
-    font-weight: bold;                 /* Hace la leyenda más destacada */
+    font-size: 1.2rem;                   
+    color: #333;                       
+    font-weight: bold;                 
 }
 
-footer  {
+.footer-home  {
     position:absolute;
     background-color: #c6c6c6;
     display: flex;
     justify-content: space-around;
-    top: 1050px;
+    top: 650px;
+    left: 5px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B4965;
+    padding: 20px;            
+    text-align: center; 
+    width: 96.5%;
+    
+}
+
+.footer-about  {
+    position:absolute;
+    background-color: #c6c6c6;
+    display: flex;
+    justify-content: space-around;
+    top: 1095px;
     left: 10px;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
@@ -179,13 +336,13 @@ footer  {
     
 }
 
-.footer-content {
+.footer-home {
     display: flex;                    
     align-items: center;   
     justify-items: flex-end;   
     gap: 800px  
-         
-}
+}     
+
 .sociallinks {
     display: flex;  
     justify-content: right;
@@ -201,7 +358,6 @@ footer  {
 
 .header {
     display: grid;
-    background-color:#a8cad3;
     grid-template-columns: 1fr 1fr; 
     gap: 20px; 
     padding: 20px;
@@ -230,11 +386,45 @@ footer  {
     color: #333;
     font-size: 20px;
     background-color: #e3e7e9;
-    border: 3px solid #fff; /* Borde blanco alrededor de los enlaces */
-    border-radius: 7px; /* Bordes redondeados */
-    transition: all 0.3s ease; /* Transición para efectos */
+    border: 3px solid #fff; 
+    border-radius: 7px; 
+    transition: all 0.3s ease; 
+}
+.nav a:hover {
+    color: #007BFF; 
 }
 
-.nav a:hover {
-    color: #007BFF; /* Color del enlace al pasar el ratón */
-}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color:#a8cad3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  /* El botón*/
+  .cta-header-button {
+    background-color: #cb4a31;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 1.3em;
+  }
+  
+  .cta-header-button:hover {
+    background-color: #e65c00;
+  }
+  
+ 
+  
+  
+  
+  
+  
