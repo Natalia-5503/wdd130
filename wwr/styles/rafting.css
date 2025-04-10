@@ -344,14 +344,14 @@ figcaption {
     padding: 20px;            
     text-align: center; 
     width: 96%;
-    gap: 800px
+    gap: 800px;
 }
 
 .footer-home {
     display: flex;                    
     align-items: center;   
     justify-items: flex-end;   
-    gap: 800px  
+    gap: 800px;
 }   
 
 
@@ -369,7 +369,7 @@ figcaption {
     padding: 20px;            
     text-align: center; 
     width: 96%;
-    gap: 800px
+    gap: 800px;
 }
 
 .sociallinks {
