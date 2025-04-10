@@ -197,7 +197,7 @@ border: 15px solid;
 
 .horizontal-form {
     display: grid;
-    grid-template-columns: repeat(3); 
+    grid-template-columns: repeat(3, 1fr); 
     gap: 40px; 
     align-items: center; 
     justify-items: center; 
@@ -510,7 +510,7 @@ figcaption {
 }
 
 /* contact us page*/
-form {
+.contact-form {
     position:absolute;
     top: 150px;
     left: 750px;
