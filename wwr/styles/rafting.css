@@ -20,20 +20,20 @@ body {
     font-size: 2rem;
     padding: 30px;
     box-sizing:border-box;
-    align-items: end;
     text-align: center;
 
 }
 
 .employee-content
 {
+
 top: 800px;    
 position:absolute;
-align-items:start;
 width: 99%;
 font-size: 2.5rem;
 font-weight: bold;
 background-color: #a8cad3;
+
 
 }
 
@@ -42,11 +42,11 @@ background-color: #a8cad3;
     display:flex;
     flex-direction:row;
     align-items:flex-end;
-    justify-content: space-between;    /* Distribuye las imágenes de manera uniforme */
-    gap: 2px;                         /* Espacio entre las figuras */
+    justify-content: space-between;    
+    gap: 2px;                         
     padding: 2px; 
-    margin-top: -80px;                    /* Espaciado dentro de la sección */
-    text-align:center;   
+    margin-top: -80px;                    
+    text-align:center; 
 
 }
 
@@ -165,7 +165,7 @@ border: 15px solid;
  {
     
     display:flex;
-    top: 590px;
+    top: 602px;
     position: relative;
     background-color: #e3e7e9;
     gap: 20px;
@@ -186,7 +186,7 @@ border: 15px solid;
 .newsletter h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    margin-top: -20px; /* Ajusta este valor para reducir el margen superior */
+    margin-top: -20px;
 }
 
 .newsletter p {
@@ -359,8 +359,8 @@ figcaption {
 
 .figcaption-contact {
     margin-top: 5px; 
-    font-size: 1.1rem;                   /* Tamaño de la fuente de la leyenda */
-    color: #333;                       /* Color del texto */
+    font-size: 1.1rem;                   
+    color: #333;                       
     font-weight: bold;  
     justify-content: center;
     
@@ -380,6 +380,7 @@ figcaption {
     padding: 20px;            
     text-align: center; 
     width: 96%;
+    gap: 800px;
     
 }
 .footer-home  {
@@ -387,7 +388,7 @@ figcaption {
     background-color: #c6c6c6;
     display: flex;
     justify-content: space-around;
-    top: 1256px;
+    top: 1280px;
     left: 5px;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
@@ -396,6 +397,7 @@ figcaption {
     padding: 20px;            
     text-align: center; 
     width: 96.7%;
+    
     
 }
 
