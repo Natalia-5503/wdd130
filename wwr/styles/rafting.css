@@ -380,9 +380,22 @@ figcaption {
     padding: 20px;            
     text-align: center; 
     width: 96%;
-    gap: 800px;
+    gap: 280px;
     
 }
+
+.wireframe-link {
+    color: #1B4965; 
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .wireframe-link:hover {
+    color: #62B6CB; 
+  }
+
 .footer-home  {
     position:absolute;
     background-color: #c6c6c6;
