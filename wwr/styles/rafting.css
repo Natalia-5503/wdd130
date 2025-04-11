@@ -232,7 +232,7 @@ border: 15px solid;
 .newsletter button.btn-submit {
     grid-column: span 3; 
     padding: 10px 20px;
-    background-color: #ff6600;
+    background-color:#357;
     color: white;
     font-size: 1.1em;
     border: none;
