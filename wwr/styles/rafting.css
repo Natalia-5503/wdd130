@@ -34,7 +34,6 @@ font-size: 2.5rem;
 font-weight: bold;
 background-color: #a8cad3;
 
-
 }
 
 .employee-gallery
@@ -50,7 +49,6 @@ background-color: #a8cad3;
 
 }
 
-
 .employee-image {
     width: 100%;                       
     height: auto;                      
@@ -61,13 +59,9 @@ background-color: #a8cad3;
  .hero
  {
 display: block;
-
-
  }
 
-
  .hero-image
-
  {
 position:absolute;  
 height: auto;
@@ -103,6 +97,34 @@ top: 130px;
     top: 330px;
     text-align: center;
  }
+
+ .hero-trip-title
+ {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    padding: 0.1rem;
+    background-color: rgba(27, 73, 101, 0.7);
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+ }
+
+ .hero-trip-subtitle
+ {
+    font-family:"Great Vibes", cursive;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    padding: 0.1rem;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+ }
+ 
 
  .hero-article
  {
@@ -194,7 +216,6 @@ border: 15px solid;
     margin-bottom: 20px;
 }
 
-
 .horizontal-form {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -204,7 +225,6 @@ border: 15px solid;
     max-width: 800px; 
     
 }
-
 
 .newsletter .form-group {
     display: flex;
@@ -249,7 +269,6 @@ border: 15px solid;
 width: 100%;
 font-size: 1.1rem;
 
-
 }
 
 .h2-history-container
@@ -285,6 +304,22 @@ font-size: 1.1rem;
     width: 1495px;
 
 }
+
+.trip-container
+{
+    display:flex;
+    top: 380px;
+    background-color:#e3e7e9;
+    position: relative;
+    border: 2px solid black; 
+    border-radius: 0px; 
+    padding: 30px;
+    box-sizing:border-box;
+    align-items: end;
+    text-align: center;
+    width: 1495px;
+
+}
 .title-adventure
 {
 position:absolute;
@@ -297,6 +332,22 @@ width: 85%;
 justify-content: center;
 margin: 25px;
 font-size: 2.5rem;
+font-weight: bold;
+
+}
+
+.trip-adventure
+{
+position:absolute;
+top:-20px;
+display:flex;
+align-items:start;
+
+left: 80px;
+width: 85%;
+justify-content: center;
+margin: 25px;
+font-size: 2.1rem;
 font-weight: bold;
 
 }
@@ -329,6 +380,18 @@ font-weight: bold;
 
 }
 
+.trip-gallery
+{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content: space-between;    
+    gap: 70px;                         
+    padding: 2px;                     
+       
+
+}
+
 .adventure-gallery
 {
     display:flex;
@@ -343,12 +406,12 @@ font-weight: bold;
 
 
 
-
 .adventure-image {
     width: 100%;                       
     height: auto;                      
     border-radius: 10px;               
 }
+
 
 figcaption {
     margin-top: 5px; 
@@ -438,7 +501,6 @@ figcaption {
     gap: 800px;
 }   
 
-
 .footer-content {
     position:absolute;
     background-color: #c6c6c6;
@@ -456,7 +518,32 @@ figcaption {
     gap: 800px;
 }
 
+.footer-trip {
+    position:absolute;
+    background-color: #c6c6c6;
+    display: flex;
+    justify-content: space-around;
+    top: 1490px;
+    left: 10px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B4965;
+    padding: 20px;            
+    text-align: center; 
+    width: 96%;
+    gap: 290px;
+}
+
 .footer-content-contact {
+    display: flex;                    
+    align-items: center;   
+    justify-items: flex-end;   
+    gap: 680px  
+         
+}
+
+.footer-content-trip {
     display: flex;                    
     align-items: center;   
     justify-items: flex-end;   
@@ -484,6 +571,8 @@ figcaption {
     padding: 20px;
     align-items: center;
 }
+
+
 
 .header-contact {
     display: grid;
@@ -536,6 +625,7 @@ figcaption {
     border-radius: 0.5rem;
     background-color:#CAE9FF;
     display: grid;
+
 
 }
 
@@ -634,18 +724,123 @@ button:hover {
     padding: 10px 20px;
     margin: 0 20px;
     border-radius: 5px;
+    border: 4px solid #7e2d1d;
     font-weight: bold;
     transition: background-color 0.3s ease;
     font-size: 1.3em;
+    transition: all 0.3s ease;
+  }
+
+  /* El botón*/
+  .contact-header-button {
+    background-color: #0b95f1;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: 4px solid #0369a1; 
+  transition: all 0.3s ease; 
+  display: inline-block;
+  }
+  
+  .contact-header-button:active {
+    box-shadow: 0 2px 0 #054d79;
+    transform: translateY(2px);
+
+  }
+
+  .contact-header-button:hover {
+    background-color: #0369a1;
   }
   
   .cta-header-button:hover {
     background-color: #e65c00;
   }
   
+  .cta-header-button:active {
+    box-shadow: 0 2px 0 #054d79;
+    transform: translateY(2px);
+
+  }
  
-  
-  
-  
-  
-  
+  .trip-table {
+    position: relative;
+    top: 390px; 
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #1B4965;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: #1B4965;
+    font-family: Arial, sans-serif;
+}
+
+.trip-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #1B4965;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #1B4965;
+    color: white;
+}
+
+.trip-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trip-table tbody tr:hover {
+    background-color: #d1e0ea;
+    transition: background-color 0.3s ease;
+}
+
+.trip-table {
+    position: relative;
+    z-index: 20; 
+}
+
+.banner-overlay {
+    position: absolute;
+    bottom: -403px;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    background-color: white;
+    z-index: 10;
+}
+
+.trip-table {
+    position: relative;
+    z-index: 20; /* Mayor que el fondo blanco */
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #1B4965;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
